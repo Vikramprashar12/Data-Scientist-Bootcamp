@@ -1,0 +1,2 @@
+SELECT HOUR(date), COUNT(*) FROM hero_battles GROUP BY HOUR(date)
+ORDER BY COUNT(*) DESC;
